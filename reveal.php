@@ -18,6 +18,7 @@
 
 Markup('section','fulltext','/\(:section:\)/e',"Keep('<section>')");
 Markup('sectionend','fulltext','/\(:sectionend:\)/e',"Keep('</section>')");
+Markup('sectionextended','fulltext','/\(:sectionextended (.*?):\)/e',"Keep('<section $1>')");
 
 SDV($HandleActions['reveal'],'HandleRevealSlides');
 
