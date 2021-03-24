@@ -44,7 +44,7 @@ Reveal.initialize({
 		            // Example values. To generate your own, see the socket.io server instructions.
 		            secret: null, // Obtained from the socket.io server. Gives this (the master) control of the presentation
 		            id: "", // Obtained from socket.io server
-				            url: "https://reveal-js-multiplex-ccjbegmaii.now.sh" // Location of socket.io server
+				            url: "https://reveal-multiplex.glitch.me/" // Location of socket.io server
 						        },
 
 	    // Don"t forget to add the dependencies
@@ -105,7 +105,7 @@ Reveal.initialize({
 		            // Example values. To generate your own, see the socket.io server instructions.
 		            secret: "", // Obtained from the socket.io server. Gives this (the master) control of the presentation
 		            id: "", // Obtained from socket.io server
-				            url: "https://reveal-js-multiplex-ccjbegmaii.now.sh" // Location of socket.io server
+				            url: "https://reveal-multiplex.glitch.me/" // Location of socket.io server
 						        },
 
 	    // Don"t forget to add the dependencies
